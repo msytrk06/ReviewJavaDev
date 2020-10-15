@@ -16,15 +16,15 @@ public class DataGenerator {
     public static Role ceoRole = new Role(6,"Chief Executive Officer");
     public static Role cfoRole = new Role(7,"Chief Financial Officer");
     public static Role cmoRole = new Role(8,"Chief Marketing Officer");
-    public static User manager1 = new User(2, LocalDateTime.now(), 1, LocalDateTime.now().plusHours(1), 1, "Delisa",
+    public static User manager1 = new User("Delisa",
             "Norre", managerRole, Gender.FEMALE);
-    public static User manager2 = new User(3, LocalDateTime.now(), 1, LocalDateTime.now().plusHours(1), 1, "Craig",
+    public static User manager2 = new User("Craig",
             "Jark", managerRole, Gender.MALE);
-    public static User manager3 = new User(4,LocalDateTime.now(),1,LocalDateTime.now().plusHours(2),1,"William",
+    public static User manager3 = new User("William",
             "Houston",managerRole,Gender.MALE);
-    public static User manager4 = new User(5,LocalDateTime.now(),1,LocalDateTime.now().plusHours(2),1,"Charles",
+    public static User manager4 = new User("Charles",
             "Kane",managerRole,Gender.MALE);
-    public static User manager5 = new User(6,LocalDateTime.now(),1,LocalDateTime.now().plusHours(1),1,"Tracy",
+    public static User manager5 = new User("Tracy",
             "Wilson",managerRole,Gender.FEMALE);
     public static Project project1 = new Project(1, LocalDateTime.now(), 1, LocalDateTime.now().plusHours(1), 1,
             "PRJ001", "Human Resource CRM", manager1, LocalDate.now(), LocalDate.now().plusDays(6), Status.IN_PROGRESS,
@@ -40,37 +40,37 @@ public class DataGenerator {
             "Seperate the role and task projacts");
     public static Project project5 = new Project(5, LocalDateTime.now(), 1, LocalDateTime.now().plusHours(1), 1,
             "PRJ005", "E commerce", manager1, LocalDate.now(), LocalDate.now().plusDays(10), Status.OPEN,"Shopping");
-    public static User user1 = new User(1,LocalDateTime.now(),1,LocalDateTime.now().plusHours(1),1,"Sarah",
+    public static User user1 = new User("Sarah",
             "Brown",supervisorRole,Gender.FEMALE);
-    public static User user2 = new User(1,LocalDateTime.now(),1,LocalDateTime.now().plusHours(1),1,"Isabella",
+    public static User user2 = new User("Isabella",
             "Jones",ceoRole,Gender.FEMALE);
-    public static User user3 = new User(2,LocalDateTime.now(),1,LocalDateTime.now().plusHours(1),1,"Richard",
+    public static User user3 = new User("Richard",
             "Byrne",ceoRole,Gender.MALE);
-    public static User user4 = new User(1,LocalDateTime.now(),1,LocalDateTime.now().plusHours(1),1,"Joseph",
+    public static User user4 = new User("Joseph",
             "Evans",cfoRole,Gender.MALE);
-    public static User user5 = new User(1,LocalDateTime.now(),1,LocalDateTime.now().plusHours(1),1,"Barbara",
+    public static User user5 = new User("Barbara",
             "Martin",cmoRole,Gender.FEMALE);
-    public static User user6 = new User(6,LocalDateTime.now(),1,LocalDateTime.now().plusHours(1),1,"Tracy",
+    public static User user6 = new User("Tracy",
             "Wilson",managerRole,Gender.FEMALE);
-    public static User user7 = new User(7, LocalDateTime.now(), 1, LocalDateTime.now().plusHours(1), 1, "Shaun",
+    public static User user7 = new User("Shaun",
             "Hayns",employeeRole, Gender.MALE);
-    public static User user8 = new User(8, LocalDateTime.now(), 1, LocalDateTime.now().plusHours(1), 1, "Mike",
+    public static User user8 = new User( "Mike",
             "Lugan",employeeRole, Gender.MALE);
-    public static User user9 = new User(9, LocalDateTime.now(), 1, LocalDateTime.now().plusHours(1), 1, "Daniel",
+    public static User user9 = new User("Daniel",
             "Smith",employeeRole, Gender.MALE);
-    public static User user10 = new User(10, LocalDateTime.now(), 1, LocalDateTime.now().plusHours(1), 1, "Ellie",
+    public static User user10 = new User("Ellie",
             "Smith",employeeRole, Gender.FEMALE);
-    public static User user11 = new User(11, LocalDateTime.now(), 1, LocalDateTime.now().plusHours(1), 1, "Emma",
+    public static User user11 = new User("Emma",
             "Jones",employeeRole, Gender.FEMALE);
-    public static User user12 = new User(12,LocalDateTime.now(),1,LocalDateTime.now().plusHours(1),1,"Sarah",
+    public static User user12 = new User("Sarah",
             "Brown",supervisorRole,Gender.FEMALE);
-    public static User user13 = new User(1,LocalDateTime.now(),1,LocalDateTime.now().plusHours(1),1,"Isabella",
+    public static User user13 = new User("Isabella",
             "Jones",ceoRole,Gender.FEMALE);
-    public static User user14 = new User(2,LocalDateTime.now(),1,LocalDateTime.now().plusHours(1),1,"Richard",
+    public static User user14 = new User("Richard",
             "Byrne",ceoRole,Gender.MALE);
-    public static User user15 = new User(1,LocalDateTime.now(),1,LocalDateTime.now().plusHours(1),1,"Joseph",
+    public static User user15 = new User("Joseph",
             "Evans",cfoRole,Gender.MALE);
-    public static User user16 = new User(1,LocalDateTime.now(),1,LocalDateTime.now().plusHours(1),1,"Barbara",
+    public static User user16 = new User("Barbara",
             "Martin",cmoRole,Gender.FEMALE);
     public static List<Role> getRoles() {
         List<Role> roles = new ArrayList<>();
